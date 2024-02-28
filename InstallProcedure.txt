@@ -1,0 +1,30 @@
+******** cd project_name
+to enter the desired project directory  ***********
+
+
+1.tailwindcss installed first with the following command: 
+npm install -D tailwindcss
+npx tailwindcss init
+
+
+2.tailwind.config get this additional command in context: Configure your template paths
+"./src/**/*.{js,jsx,ts,tsx}"
+
+
+3.These dependencies to be added in index.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*****Important dependencies required******
+4.npm install 
+axios : For connecting the api's 
+react-router-dom 
+firebase : for fetching the data and storing it.
+react-icons
+tailwind-scrollbar-hide
+
+
+5. Go to plugin in tailwind.config file and write
+require('tailwind-scrollbar-hide')
